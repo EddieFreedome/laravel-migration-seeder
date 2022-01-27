@@ -20,7 +20,6 @@ class CreateTravelTable extends Migration
             $table->smallInteger('departureTime');
             $table->smallInteger('arrivalTime');//serve un tipo decimale
             $table->integer('Price');
-            $table->id();
             $table->timestamps();
         });
     }
